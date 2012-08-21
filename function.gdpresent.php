@@ -1,5 +1,5 @@
 <?php
-function smarty_cms_function_gdpresent($params, &$smarty)
+function smarty_cms_function_spro_gdpresent($params, &$smarty)
 {
     $id   = ($params['id']);
     $width   = ($params['width']);
@@ -19,7 +19,7 @@ function smarty_cms_function_gdpresent($params, &$smarty)
         echo '<iframe src="https://docs.google.com/presentation/embed?id=' . $id . '&amp;start=' . $auto . '&amp;loop=false&amp;delayms=' . $delay . '" frameborder="0" width="' . $width . '" height="' . $height . '"></iframe>';}
 	}
 
-function smarty_cms_help_function_gdpresent()
+function smarty_cms_help_function_spro_gdpresent()
 {
 ?>	<h3>What does this do?</h3>
 <p>
@@ -53,12 +53,15 @@ function smarty_cms_help_function_gdpresent()
 </ul>
 <?php
 }
-function smarty_cms_about_function_gmaps()
+function smarty_cms_about_function_spro_gdpresent()
 {
 ?>
 <p>
 	Author: Hector Hernandez <a href="http://www.soportepro.com" target="_blank">www.soportepro.com</a>
+  <br />
+  Email: i n f o at s o p o r t e p r o dot c o m
 </p>
+<p>Licence: GPL</p>
 <p>
 	Version: 0.1
 </p>
